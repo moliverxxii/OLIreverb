@@ -1,0 +1,36 @@
+dependencies: \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstinitiids.cpp \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/pluginterfaces/base/funknown.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/pluginterfaces/base/fplatform.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/pluginterfaces/base/ftypes.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/pluginterfaces/base/smartpointer.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/pluginterfaces/vst/ivstaudioprocessor.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/pluginterfaces/vst/ivstcomponent.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/pluginterfaces/base/ipluginbase.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/pluginterfaces/base/fstrdefs.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/pluginterfaces/vst/vsttypes.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/pluginterfaces/base/falignpush.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/pluginterfaces/base/falignpop.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/pluginterfaces/vst/vstspeaker.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/pluginterfaces/vst/ivstautomationstate.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/pluginterfaces/vst/ivstchannelcontextinfo.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/pluginterfaces/vst/ivstattributes.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/pluginterfaces/vst/ivstcontextmenu.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/pluginterfaces/vst/ivsteditcontroller.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/pluginterfaces/vst/ivstevents.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/pluginterfaces/vst/ivstprocesscontext.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/pluginterfaces/vst/ivstnoteexpression.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/pluginterfaces/vst/ivsthostapplication.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/pluginterfaces/vst/ivstmessage.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/pluginterfaces/vst/ivstinterappaudio.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/pluginterfaces/vst/ivstmidilearn.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/pluginterfaces/vst/ivstparameterchanges.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/pluginterfaces/vst/ivstparameterfunctionname.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/pluginterfaces/vst/ivstphysicalui.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/pluginterfaces/vst/ivstpluginterfacesupport.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/pluginterfaces/vst/ivstplugview.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/pluginterfaces/vst/ivstprefetchablesupport.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/pluginterfaces/vst/ivstrepresentation.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/pluginterfaces/vst/ivsttestplugprovider.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/pluginterfaces/base/istringresult.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/pluginterfaces/vst/ivstunits.h

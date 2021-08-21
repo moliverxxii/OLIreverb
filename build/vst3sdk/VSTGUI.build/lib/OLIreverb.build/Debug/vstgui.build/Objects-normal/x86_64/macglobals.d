@@ -1,0 +1,32 @@
+dependencies: \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/macglobals.cpp \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/macglobals.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/../../vstguibase.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/../../vstguidebug.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/../../crect.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/../../cpoint.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/../../cframe.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/../../vstguifwd.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/../../cviewcontainer.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/../../cview.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/../../vstkeycode.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/../../cbuttonstate.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/../../cgraphicstransform.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/../../cdrawdefs.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/../../optional.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/../../platform/iplatformframecallback.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/../../platform/../vstguifwd.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/../../ccolor.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/../iplatformframe.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/../../platform/../dragging.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/../../cbitmap.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/../../cresourcedescription.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/../../platform/iplatformbitmap.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/../../idatapackage.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/../../platform/../optional.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/../../platform/../cstring.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/../../platform/iplatformstring.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/../../platform/../vstguibase.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/../common/fileresourceinputstream.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/../common/../iplatformresourceinputstream.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/../std_unorderedmap.h

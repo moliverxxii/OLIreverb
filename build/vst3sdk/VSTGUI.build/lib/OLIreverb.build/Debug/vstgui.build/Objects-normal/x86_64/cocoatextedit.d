@@ -1,0 +1,25 @@
+dependencies: \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/cocoatextedit.mm \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/cocoatextedit.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/../../iplatformtextedit.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/../../../cfont.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/../../../vstguifwd.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/../../../vstguibase.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/../../../vstguidebug.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/../../../cstring.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/../../../optional.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/../../../platform/iplatformstring.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/../../../ccolor.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/../../../crect.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/../../../cpoint.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/../../../cdrawcontext.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/../../../cgraphicstransform.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/../../../clinestyle.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/../../../cdrawdefs.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/cocoahelpers.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/autoreleasepool.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/../cfontmac.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/../../iplatformfont.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/../macstring.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/../../iplatformstring.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/../../../vstkeycode.h

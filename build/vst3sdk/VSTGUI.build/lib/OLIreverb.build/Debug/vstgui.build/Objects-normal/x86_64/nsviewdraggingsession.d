@@ -1,0 +1,20 @@
+dependencies: \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/nsviewdraggingsession.mm \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/nsviewdraggingsession.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/../../../vstguifwd.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/../../../vstguibase.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/../../../vstguidebug.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/../../../dragging.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/../../../cbitmap.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/../../../cpoint.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/../../../crect.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/../../../cresourcedescription.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/../../../platform/iplatformbitmap.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/../../../platform/../vstguifwd.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/../../../cbuttonstate.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/../../../idatapackage.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/../cgbitmap.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/../../iplatformbitmap.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/../macclipboard.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/cocoahelpers.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/cocoa/../../../ccolor.h

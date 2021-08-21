@@ -1,0 +1,1040 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1034C5E8D4124B49AB51F5B3 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CB45A8AB1D2A42ABB5A703DB /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				EBBFEA0922D14332959C2E46 /* CMake Rules */,
+			);
+			dependencies = (
+				8F3A6CC4C8C2497B9333479B /* PBXTargetDependency */,
+				CF145136ECCD45D7BCCAC70E /* PBXTargetDependency */,
+				47D11F5B9ED64B6D9960C802 /* PBXTargetDependency */,
+				97BF358B9B844E21866E13F8 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		FF0334C25260436E8802D4FA /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9A8CFBF18CEF4D0CA325A465 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				2C70A37C936E499BB761A7D7 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00C574A23A734654BC53FC4E /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/stringconvert.h */ = {isa = PBXBuildFile; fileRef = 36BA8DC035964795B7F0F2AD /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/stringconvert.h */; };
+		065A10BA608843A6BE6E6C4E /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstpresetfile.h */ = {isa = PBXBuildFile; fileRef = A0D4DF0C49C84F7B9781EF33 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstpresetfile.h */; };
+		07177CB6E051478883771231 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstnoteexpressiontypes.cpp */ = {isa = PBXBuildFile; fileRef = BB06AA6B6E9B4BC8957729BB /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstnoteexpressiontypes.cpp */; };
+		0C155489F78747BBA09C5A7C /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstcomponentbase.cpp */ = {isa = PBXBuildFile; fileRef = BB46752FB635423D892F446E /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstcomponentbase.cpp */; };
+		0E2D64F972DE4BB683D2CB93 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/ringbuffer.h */ = {isa = PBXBuildFile; fileRef = 2133C81670D24922B9AAB8C2 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/ringbuffer.h */; };
+		11F43B5F07DD46BB84DD93F0 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/openurl.cpp */ = {isa = PBXBuildFile; fileRef = FDC294B43EAC4728904F58CB /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/openurl.cpp */; };
+		1B6A726894E74C1D913960B8 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstnoteexpressiontypes.h */ = {isa = PBXBuildFile; fileRef = 51D90BB98C31446585E20543 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstnoteexpressiontypes.h */; };
+		1CFEA599B47A420A9BC55542 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/commoniids.cpp */ = {isa = PBXBuildFile; fileRef = 113098B33BD046FD865AB27F /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/commoniids.cpp */; };
+		223D9DF5C8A2419EABFB5506 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/systemclipboard.h */ = {isa = PBXBuildFile; fileRef = 5C16EBA860234A829751D983 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/systemclipboard.h */; };
+		27BAAC59E71C4427B94E9A06 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/processdata.h */ = {isa = PBXBuildFile; fileRef = 86F2D0400E88459F88E86A5E /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/processdata.h */; };
+		27EAA0FFD4CF41E5AD13A3FF /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstcomponent.h */ = {isa = PBXBuildFile; fileRef = E3D1683958A34C5891178B0A /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstcomponent.h */; };
+		2819F73D6A7D409BB924C6DC /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/parameterchanges.cpp */ = {isa = PBXBuildFile; fileRef = 77E60B237A6744EDB598682D /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/parameterchanges.cpp */; };
+		2D403F7E8403406FB063F66D /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/pluginview.cpp */ = {isa = PBXBuildFile; fileRef = 3E8FA52A783045D6BE6AD94B /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/pluginview.cpp */; };
+		2FFCED91405C422DB3020CC5 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/versionparser.h */ = {isa = PBXBuildFile; fileRef = 00783410F3AE46BABF42A6D5 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/versionparser.h */; };
+		3EA68A51E0C94B1ABE7EDDC5 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vsteditcontroller.h */ = {isa = PBXBuildFile; fileRef = D957169C1B7A42C29D72890D /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vsteditcontroller.h */; };
+		40EDE78055AF49049FA429E4 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstcomponent.cpp */ = {isa = PBXBuildFile; fileRef = C467C9D474A3469FA64E9DDF /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstcomponent.cpp */; };
+		4161FBF6424543538E9FEBA1 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B270A55D03D94769B4B3B359 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/CMakeLists.txt */; };
+		44E5846E5B1B4215BCF30B5E /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vsthelpers.h */ = {isa = PBXBuildFile; fileRef = 50E2D750480D4EA3B659F2D1 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vsthelpers.h */; };
+		47C616D565344BFA866698C0 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/stringconvert.cpp */ = {isa = PBXBuildFile; fileRef = 539B5AB7DFBC4A1A98E5A72E /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/stringconvert.cpp */; };
+		48613B5A92704F97AB9AEBC6 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/stringconvert.h */ = {isa = PBXBuildFile; fileRef = C00677AC72834B2C8782B240 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/stringconvert.h */; };
+		4B8F24E7B8EC4F8392D77D4A /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstbus.cpp */ = {isa = PBXBuildFile; fileRef = 84F7C69B9240455C8809C974 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstbus.cpp */; };
+		4D95ADBDD8D34155AAD9B65F /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/threadchecker_linux.cpp */ = {isa = PBXBuildFile; fileRef = A0AD538C578E4856BB89AE40 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/threadchecker_linux.cpp */; };
+		547F64145BB744A5AA756B5F /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/eventlist.cpp */ = {isa = PBXBuildFile; fileRef = 3F6C2389F19F40DFA3D74DC9 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/eventlist.cpp */; };
+		5529ECAF53154DC9968041CA /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/systemclipboard_win32.cpp */ = {isa = PBXBuildFile; fileRef = B38C757F7EE048179120B8BF /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/systemclipboard_win32.cpp */; };
+		56A3002699F840AB83D4D65B /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/eventlist.h */ = {isa = PBXBuildFile; fileRef = 3DC66EAE1FC244869FA316DD /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/eventlist.h */; };
+		5B2AD742A946414D962A0473 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/module.h */ = {isa = PBXBuildFile; fileRef = 968A5989C69541D7B325399E /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/module.h */; };
+		60C32FECE6B94D6598E7B4F9 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/vst2persistence.cpp */ = {isa = PBXBuildFile; fileRef = 03172E7727CA475A9DB26FB5 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/vst2persistence.cpp */; };
+		6FC9B2FE17DD4A178CA267CF /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = BC31D2606A524D5AB0C8BE23 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/CMakeLists.txt */; };
+		700E9A5C146740C6A1AD49EE /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/connectionproxy.cpp */ = {isa = PBXBuildFile; fileRef = 47D9E27A40E84493B03C1FEC /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/connectionproxy.cpp */; };
+		7021FA44759C45B3B421A6BB /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/systemclipboard_mac.mm */ = {isa = PBXBuildFile; fileRef = 8647912F17D640E4A26D29CE /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/systemclipboard_mac.mm */; };
+		776B761FF97342FCAC40B54B /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstbus.h */ = {isa = PBXBuildFile; fileRef = 8AE55A0744534CAC8102819C /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstbus.h */; };
+		79DA7FC0AC4B4A57AD2D7ABE /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/openurl.h */ = {isa = PBXBuildFile; fileRef = 4C755638D289476FA7839A90 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/openurl.h */; };
+		7D2E863C962C4264ABA07B0C /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/connectionproxy.h */ = {isa = PBXBuildFile; fileRef = DEE08F74B10F4112B08E42CF /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/connectionproxy.h */; };
+		8012FA8E5CB4485D9ADBBA67 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstpresetfile.cpp */ = {isa = PBXBuildFile; fileRef = DE69A2712096481586DDDA4B /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstpresetfile.cpp */; };
+		841706D3D8EB4A6EA101FDF3 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstinitiids.cpp */ = {isa = PBXBuildFile; fileRef = 507F905B74DC48218F7FFB5C /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstinitiids.cpp */; };
+		86FBE2A2E6ED4A2EB196A44D /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/threadchecker_mac.mm */ = {isa = PBXBuildFile; fileRef = 0F14C349DC5A4D8F9CC88B8E /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/threadchecker_mac.mm */; };
+		8A36E352094C4A8EA9519D94 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/threadchecker.h */ = {isa = PBXBuildFile; fileRef = F97A6C0ABF484A83A8C7A245 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/threadchecker.h */; };
+		8DE9A0696C8F41E2BEEE8826 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstaudioeffect.cpp */ = {isa = PBXBuildFile; fileRef = AA5376E1606E4D4DB0568793 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstaudioeffect.cpp */; };
+		92362DE7487B44B7A0A7762A /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstinitiids.cpp */ = {isa = PBXBuildFile; fileRef = 6EC2C438E17845299705CAE7 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstinitiids.cpp */; };
+		99C5DB620A9F44A1B7E3A4E7 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/stringconvert.cpp */ = {isa = PBXBuildFile; fileRef = 6640EB09FE7F4290BBC6D56F /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/stringconvert.cpp */; };
+		9A5218D571194C1993DF59FD /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/module.cpp */ = {isa = PBXBuildFile; fileRef = CBF139FFB5F74F4BB9C450E8 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/module.cpp */; };
+		9AFB813381704DF4B846D069 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/pluginterfacesupport.cpp */ = {isa = PBXBuildFile; fileRef = 4148E4BC343E41A6BB7501FF /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/pluginterfacesupport.cpp */; };
+		A63C558B3EA745989C373941 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/main/pluginfactory.cpp */ = {isa = PBXBuildFile; fileRef = 835ED8D4B5F440A68D9E33CF /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/main/pluginfactory.cpp */; };
+		A79631EFFF964CECB2911211 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/pluginview.h */ = {isa = PBXBuildFile; fileRef = 7655C4DFE1B648B8B29AA722 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/pluginview.h */; };
+		B0C972DC35EC4DF89C3254C1 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstbypassprocessor.h */ = {isa = PBXBuildFile; fileRef = 6E759C07F4C54E3B9B1BDC45 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstbypassprocessor.h */; };
+		B62236A191004B7E9FA57A08 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/main/pluginfactory.h */ = {isa = PBXBuildFile; fileRef = C8141672ED024D8DB2E72297 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/main/pluginfactory.h */; };
+		BF492360566B470F86850519 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vsteditcontroller.cpp */ = {isa = PBXBuildFile; fileRef = 197A9CC7A3ED417A9CBF4A59 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vsteditcontroller.cpp */; };
+		C8481206A9234932ACFB4265 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vsteventshelper.h */ = {isa = PBXBuildFile; fileRef = 38532C018C79432695827A9E /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vsteventshelper.h */; };
+		CB429825C43B45558162FD5A /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/processcontextrequirements.h */ = {isa = PBXBuildFile; fileRef = 5516E6B8254B43EBAAB9F135 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/processcontextrequirements.h */; };
+		CDB7307C186545418524EA70 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstaudioeffect.h */ = {isa = PBXBuildFile; fileRef = DC714C29B8EA489E8E7B26BC /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstaudioeffect.h */; };
+		D19E8154204C40FD9D28F7A2 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstrepresentation.h */ = {isa = PBXBuildFile; fileRef = 05E47AB6F90C4B0BBC2D51CB /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstrepresentation.h */; };
+		D6BF97BEDD8D4FF48BF931BA /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/parameterchanges.h */ = {isa = PBXBuildFile; fileRef = 40E6F057372C4B9D84809E0C /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/parameterchanges.h */; };
+		DB9E64282E5D43F1ADEB44C5 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/uid.h */ = {isa = PBXBuildFile; fileRef = 3A336EFF9D754103A5966006 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/uid.h */; };
+		E09BE35BEF1749C18A4171CE /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/hostclasses.cpp */ = {isa = PBXBuildFile; fileRef = 4EB822299BE14A5890F5CA78 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/hostclasses.cpp */; };
+		E13EAC52F81541DEA0C6890D /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstparameters.h */ = {isa = PBXBuildFile; fileRef = 434D06D7929F4152BB915488 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstparameters.h */; };
+		E1CBFEC97F694AF99BF23668 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/optional.h */ = {isa = PBXBuildFile; fileRef = FCFE77829C5E461EB6D8CD8F /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/optional.h */; };
+		E278C2340E124B11B4107546 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstrepresentation.cpp */ = {isa = PBXBuildFile; fileRef = F07843CE84A14808B34848F3 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstrepresentation.cpp */; };
+		EB72555DFC3B48CD970A5DBC /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/threadchecker_win32.cpp */ = {isa = PBXBuildFile; fileRef = BAC5604F4BCB4F3E947F4CC0 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/threadchecker_win32.cpp */; };
+		EBD30DEFE34A47B4A2747378 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstcomponentbase.h */ = {isa = PBXBuildFile; fileRef = 9B73EA5AF2D14012A8FDFE49 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstcomponentbase.h */; };
+		ED00B7D404554B0BBB526520 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/processdata.cpp */ = {isa = PBXBuildFile; fileRef = 8FCE30267FD246E1AEEC72A9 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/processdata.cpp */; };
+		EE6BF920F8304651A313CF39 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstparameters.cpp */ = {isa = PBXBuildFile; fileRef = 457985C8478B45499CE8B335 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstparameters.cpp */; };
+		F6DB6AFE3B4D41679F7E8D7F /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = EE5B326628D3486C8A4D90CF /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/CMakeLists.txt */; };
+		F9214E159E294849BB60EBB3 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/pluginterfacesupport.h */ = {isa = PBXBuildFile; fileRef = 67CB3CD2F5CB4EE4BC626CF6 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/pluginterfacesupport.h */; };
+		FAFC5B1A1AB54E4E963B48DF /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/vst2persistence.h */ = {isa = PBXBuildFile; fileRef = F7CAF582838A413E80D9D33B /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/vst2persistence.h */; };
+		FF5D70508F8C4C319F8735EB /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/hostclasses.h */ = {isa = PBXBuildFile; fileRef = 605065F1FA9042DA9F874E7E /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/hostclasses.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		5A1EB6AD5B8545ECBF478223 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		7FD85B7150E34D5E8A46B08E /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		28C8057B95A948B4AF67FAB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1096E4CB0DD9476BA771EB3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2960DAF3CD694305BAEB4AC7;
+			remoteInfo = sdk_common;
+		};
+		2E7ECAF0312449E1B046A1BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1096E4CB0DD9476BA771EB3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF0334C25260436E8802D4FA;
+			remoteInfo = ZERO_CHECK;
+		};
+		3649F81021EF43C0826E47D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1096E4CB0DD9476BA771EB3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF0334C25260436E8802D4FA;
+			remoteInfo = ZERO_CHECK;
+		};
+		5665556A9B7746C0B69E580C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1096E4CB0DD9476BA771EB3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF0334C25260436E8802D4FA;
+			remoteInfo = ZERO_CHECK;
+		};
+		76A7F71912604C5387AB9662 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1096E4CB0DD9476BA771EB3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B148538BAF542D28597556F;
+			remoteInfo = sdk;
+		};
+		A46810BFCB4A4637AFCAB429 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1096E4CB0DD9476BA771EB3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF0334C25260436E8802D4FA;
+			remoteInfo = ZERO_CHECK;
+		};
+		ADF5FEBEAD794406AFCDAA23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1096E4CB0DD9476BA771EB3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA2BBDE661CF43C6BF220CCB;
+			remoteInfo = sdk_hosting;
+		};
+		D79D3E279A8743EFABCC1E5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1096E4CB0DD9476BA771EB3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2960DAF3CD694305BAEB4AC7;
+			remoteInfo = sdk_common;
+		};
+		F01D6453EAD540B987247DED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1096E4CB0DD9476BA771EB3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2960DAF3CD694305BAEB4AC7;
+			remoteInfo = sdk_common;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00783410F3AE46BABF42A6D5 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/versionparser.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = versionparser.h; path = source/vst/utility/versionparser.h; sourceTree = SOURCE_ROOT; };
+		014A0724367B4488B08F6108 /* sdk_common */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libsdk_common.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		03172E7727CA475A9DB26FB5 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/vst2persistence.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vst2persistence.cpp; path = source/vst/utility/vst2persistence.cpp; sourceTree = SOURCE_ROOT; };
+		05E47AB6F90C4B0BBC2D51CB /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstrepresentation.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstrepresentation.h; path = source/vst/vstrepresentation.h; sourceTree = SOURCE_ROOT; };
+		0F14C349DC5A4D8F9CC88B8E /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/threadchecker_mac.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = threadchecker_mac.mm; path = source/common/threadchecker_mac.mm; sourceTree = SOURCE_ROOT; };
+		113098B33BD046FD865AB27F /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/commoniids.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = commoniids.cpp; path = source/common/commoniids.cpp; sourceTree = SOURCE_ROOT; };
+		197A9CC7A3ED417A9CBF4A59 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vsteditcontroller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vsteditcontroller.cpp; path = source/vst/vsteditcontroller.cpp; sourceTree = SOURCE_ROOT; };
+		2133C81670D24922B9AAB8C2 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/ringbuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ringbuffer.h; path = source/vst/utility/ringbuffer.h; sourceTree = SOURCE_ROOT; };
+		36BA8DC035964795B7F0F2AD /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/stringconvert.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stringconvert.h; path = source/vst/utility/stringconvert.h; sourceTree = SOURCE_ROOT; };
+		38532C018C79432695827A9E /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vsteventshelper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vsteventshelper.h; path = source/vst/vsteventshelper.h; sourceTree = SOURCE_ROOT; };
+		3A336EFF9D754103A5966006 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/uid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = uid.h; path = source/vst/utility/uid.h; sourceTree = SOURCE_ROOT; };
+		3DC66EAE1FC244869FA316DD /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/eventlist.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = eventlist.h; path = source/vst/hosting/eventlist.h; sourceTree = SOURCE_ROOT; };
+		3E8FA52A783045D6BE6AD94B /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/pluginview.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pluginview.cpp; path = source/common/pluginview.cpp; sourceTree = SOURCE_ROOT; };
+		3F6C2389F19F40DFA3D74DC9 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/eventlist.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = eventlist.cpp; path = source/vst/hosting/eventlist.cpp; sourceTree = SOURCE_ROOT; };
+		40E6F057372C4B9D84809E0C /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/parameterchanges.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = parameterchanges.h; path = source/vst/hosting/parameterchanges.h; sourceTree = SOURCE_ROOT; };
+		4148E4BC343E41A6BB7501FF /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/pluginterfacesupport.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pluginterfacesupport.cpp; path = source/vst/hosting/pluginterfacesupport.cpp; sourceTree = SOURCE_ROOT; };
+		434D06D7929F4152BB915488 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstparameters.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstparameters.h; path = source/vst/vstparameters.h; sourceTree = SOURCE_ROOT; };
+		457985C8478B45499CE8B335 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstparameters.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vstparameters.cpp; path = source/vst/vstparameters.cpp; sourceTree = SOURCE_ROOT; };
+		47D9E27A40E84493B03C1FEC /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/connectionproxy.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = connectionproxy.cpp; path = source/vst/hosting/connectionproxy.cpp; sourceTree = SOURCE_ROOT; };
+		4C755638D289476FA7839A90 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/openurl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = openurl.h; path = source/common/openurl.h; sourceTree = SOURCE_ROOT; };
+		4EB822299BE14A5890F5CA78 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/hostclasses.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hostclasses.cpp; path = source/vst/hosting/hostclasses.cpp; sourceTree = SOURCE_ROOT; };
+		507F905B74DC48218F7FFB5C /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstinitiids.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vstinitiids.cpp; path = source/vst/vstinitiids.cpp; sourceTree = SOURCE_ROOT; };
+		50E2D750480D4EA3B659F2D1 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vsthelpers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vsthelpers.h; path = source/vst/vsthelpers.h; sourceTree = SOURCE_ROOT; };
+		51D90BB98C31446585E20543 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstnoteexpressiontypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstnoteexpressiontypes.h; path = source/vst/vstnoteexpressiontypes.h; sourceTree = SOURCE_ROOT; };
+		539B5AB7DFBC4A1A98E5A72E /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/stringconvert.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stringconvert.cpp; path = source/vst/utility/stringconvert.cpp; sourceTree = SOURCE_ROOT; };
+		5516E6B8254B43EBAAB9F135 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/processcontextrequirements.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = processcontextrequirements.h; path = source/vst/utility/processcontextrequirements.h; sourceTree = SOURCE_ROOT; };
+		5C16EBA860234A829751D983 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/systemclipboard.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = systemclipboard.h; path = source/common/systemclipboard.h; sourceTree = SOURCE_ROOT; };
+		5DF552A0C6464845951BA156 /* sdk_hosting */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libsdk_hosting.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		605065F1FA9042DA9F874E7E /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/hostclasses.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hostclasses.h; path = source/vst/hosting/hostclasses.h; sourceTree = SOURCE_ROOT; };
+		6640EB09FE7F4290BBC6D56F /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/stringconvert.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stringconvert.cpp; path = source/vst/utility/stringconvert.cpp; sourceTree = SOURCE_ROOT; };
+		67CB3CD2F5CB4EE4BC626CF6 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/pluginterfacesupport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pluginterfacesupport.h; path = source/vst/hosting/pluginterfacesupport.h; sourceTree = SOURCE_ROOT; };
+		6E759C07F4C54E3B9B1BDC45 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstbypassprocessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstbypassprocessor.h; path = source/vst/vstbypassprocessor.h; sourceTree = SOURCE_ROOT; };
+		6EC2C438E17845299705CAE7 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstinitiids.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vstinitiids.cpp; path = source/vst/vstinitiids.cpp; sourceTree = SOURCE_ROOT; };
+		7655C4DFE1B648B8B29AA722 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/pluginview.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pluginview.h; path = source/common/pluginview.h; sourceTree = SOURCE_ROOT; };
+		77E60B237A6744EDB598682D /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/parameterchanges.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = parameterchanges.cpp; path = source/vst/hosting/parameterchanges.cpp; sourceTree = SOURCE_ROOT; };
+		835ED8D4B5F440A68D9E33CF /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/main/pluginfactory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pluginfactory.cpp; path = source/main/pluginfactory.cpp; sourceTree = SOURCE_ROOT; };
+		84F7C69B9240455C8809C974 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstbus.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vstbus.cpp; path = source/vst/vstbus.cpp; sourceTree = SOURCE_ROOT; };
+		8647912F17D640E4A26D29CE /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/systemclipboard_mac.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = systemclipboard_mac.mm; path = source/common/systemclipboard_mac.mm; sourceTree = SOURCE_ROOT; };
+		86F2D0400E88459F88E86A5E /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/processdata.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = processdata.h; path = source/vst/hosting/processdata.h; sourceTree = SOURCE_ROOT; };
+		8AE55A0744534CAC8102819C /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstbus.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstbus.h; path = source/vst/vstbus.h; sourceTree = SOURCE_ROOT; };
+		8FCE30267FD246E1AEEC72A9 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/processdata.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = processdata.cpp; path = source/vst/hosting/processdata.cpp; sourceTree = SOURCE_ROOT; };
+		968A5989C69541D7B325399E /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/module.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = module.h; path = source/vst/hosting/module.h; sourceTree = SOURCE_ROOT; };
+		9B73EA5AF2D14012A8FDFE49 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstcomponentbase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstcomponentbase.h; path = source/vst/vstcomponentbase.h; sourceTree = SOURCE_ROOT; };
+		9F60C5AEDB5A4F3697D5FAA2 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A0AD538C578E4856BB89AE40 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/threadchecker_linux.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = threadchecker_linux.cpp; path = source/common/threadchecker_linux.cpp; sourceTree = SOURCE_ROOT; };
+		A0D4DF0C49C84F7B9781EF33 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstpresetfile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstpresetfile.h; path = source/vst/vstpresetfile.h; sourceTree = SOURCE_ROOT; };
+		AA5376E1606E4D4DB0568793 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstaudioeffect.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vstaudioeffect.cpp; path = source/vst/vstaudioeffect.cpp; sourceTree = SOURCE_ROOT; };
+		B270A55D03D94769B4B3B359 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B38C757F7EE048179120B8BF /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/systemclipboard_win32.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = systemclipboard_win32.cpp; path = source/common/systemclipboard_win32.cpp; sourceTree = SOURCE_ROOT; };
+		BAC5604F4BCB4F3E947F4CC0 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/threadchecker_win32.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = threadchecker_win32.cpp; path = source/common/threadchecker_win32.cpp; sourceTree = SOURCE_ROOT; };
+		BB06AA6B6E9B4BC8957729BB /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstnoteexpressiontypes.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vstnoteexpressiontypes.cpp; path = source/vst/vstnoteexpressiontypes.cpp; sourceTree = SOURCE_ROOT; };
+		BB46752FB635423D892F446E /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstcomponentbase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vstcomponentbase.cpp; path = source/vst/vstcomponentbase.cpp; sourceTree = SOURCE_ROOT; };
+		BC31D2606A524D5AB0C8BE23 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C00677AC72834B2C8782B240 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/stringconvert.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stringconvert.h; path = source/vst/utility/stringconvert.h; sourceTree = SOURCE_ROOT; };
+		C467C9D474A3469FA64E9DDF /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstcomponent.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vstcomponent.cpp; path = source/vst/vstcomponent.cpp; sourceTree = SOURCE_ROOT; };
+		C8141672ED024D8DB2E72297 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/main/pluginfactory.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pluginfactory.h; path = source/main/pluginfactory.h; sourceTree = SOURCE_ROOT; };
+		CBF139FFB5F74F4BB9C450E8 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/module.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = module.cpp; path = source/vst/hosting/module.cpp; sourceTree = SOURCE_ROOT; };
+		CFAC83E79E304AF5B6F37485 /* sdk */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libsdk.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D957169C1B7A42C29D72890D /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vsteditcontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vsteditcontroller.h; path = source/vst/vsteditcontroller.h; sourceTree = SOURCE_ROOT; };
+		DC714C29B8EA489E8E7B26BC /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstaudioeffect.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstaudioeffect.h; path = source/vst/vstaudioeffect.h; sourceTree = SOURCE_ROOT; };
+		DE69A2712096481586DDDA4B /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstpresetfile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vstpresetfile.cpp; path = source/vst/vstpresetfile.cpp; sourceTree = SOURCE_ROOT; };
+		DEE08F74B10F4112B08E42CF /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/connectionproxy.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = connectionproxy.h; path = source/vst/hosting/connectionproxy.h; sourceTree = SOURCE_ROOT; };
+		E3D1683958A34C5891178B0A /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstcomponent.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstcomponent.h; path = source/vst/vstcomponent.h; sourceTree = SOURCE_ROOT; };
+		EE5B326628D3486C8A4D90CF /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F07843CE84A14808B34848F3 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstrepresentation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vstrepresentation.cpp; path = source/vst/vstrepresentation.cpp; sourceTree = SOURCE_ROOT; };
+		F7CAF582838A413E80D9D33B /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/vst2persistence.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vst2persistence.h; path = source/vst/utility/vst2persistence.h; sourceTree = SOURCE_ROOT; };
+		F97A6C0ABF484A83A8C7A245 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/threadchecker.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = threadchecker.h; path = source/common/threadchecker.h; sourceTree = SOURCE_ROOT; };
+		FCFE77829C5E461EB6D8CD8F /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/optional.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = optional.h; path = source/vst/utility/optional.h; sourceTree = SOURCE_ROOT; };
+		FDC294B43EAC4728904F58CB /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/openurl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = openurl.cpp; path = source/common/openurl.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5107ADF04A704522A056622D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		679174FDDA4A4CCEB2E97C3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F32385F9AF3945A78CA2A914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08D726487ACC4DF0B7CC434D = {
+			isa = PBXGroup;
+			children = (
+				7F34B031FB294EA4B5BEAC0A /* Libraries */,
+				B91C6120E0174B55A6E43F09 /* ALL_BUILD */,
+				AF2E017E92B34D04A5DEA76B /* Products */,
+				2C0BB3C278814AA5BE61E1AE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1B385F05437D47EE90A6C409 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				113098B33BD046FD865AB27F /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/commoniids.cpp */,
+				FDC294B43EAC4728904F58CB /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/openurl.cpp */,
+				8647912F17D640E4A26D29CE /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/systemclipboard_mac.mm */,
+				B38C757F7EE048179120B8BF /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/systemclipboard_win32.cpp */,
+				A0AD538C578E4856BB89AE40 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/threadchecker_linux.cpp */,
+				0F14C349DC5A4D8F9CC88B8E /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/threadchecker_mac.mm */,
+				BAC5604F4BCB4F3E947F4CC0 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/threadchecker_win32.cpp */,
+				DE69A2712096481586DDDA4B /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstpresetfile.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		2829A796E3F44AAEAD67DFCA /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				7655C4DFE1B648B8B29AA722 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/pluginview.h */,
+				C8141672ED024D8DB2E72297 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/main/pluginfactory.h */,
+				5516E6B8254B43EBAAB9F135 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/processcontextrequirements.h */,
+				2133C81670D24922B9AAB8C2 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/ringbuffer.h */,
+				C00677AC72834B2C8782B240 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/stringconvert.h */,
+				F7CAF582838A413E80D9D33B /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/vst2persistence.h */,
+				DC714C29B8EA489E8E7B26BC /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstaudioeffect.h */,
+				8AE55A0744534CAC8102819C /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstbus.h */,
+				6E759C07F4C54E3B9B1BDC45 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstbypassprocessor.h */,
+				E3D1683958A34C5891178B0A /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstcomponent.h */,
+				9B73EA5AF2D14012A8FDFE49 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstcomponentbase.h */,
+				D957169C1B7A42C29D72890D /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vsteditcontroller.h */,
+				38532C018C79432695827A9E /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vsteventshelper.h */,
+				50E2D750480D4EA3B659F2D1 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vsthelpers.h */,
+				51D90BB98C31446585E20543 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstnoteexpressiontypes.h */,
+				434D06D7929F4152BB915488 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstparameters.h */,
+				05E47AB6F90C4B0BBC2D51CB /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstrepresentation.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		2C0BB3C278814AA5BE61E1AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D625B57C4814C63B0CEA900 /* sdk_common */ = {
+			isa = PBXGroup;
+			children = (
+				1B385F05437D47EE90A6C409 /* Source Files */,
+				50764B20984D4C45B09617B4 /* Header Files */,
+				EE5B326628D3486C8A4D90CF /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/CMakeLists.txt */,
+			);
+			name = sdk_common;
+			sourceTree = "<group>";
+		};
+		48429DE9C0F24F768947D2CF /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				47D9E27A40E84493B03C1FEC /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/connectionproxy.cpp */,
+				3F6C2389F19F40DFA3D74DC9 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/eventlist.cpp */,
+				4EB822299BE14A5890F5CA78 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/hostclasses.cpp */,
+				CBF139FFB5F74F4BB9C450E8 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/module.cpp */,
+				77E60B237A6744EDB598682D /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/parameterchanges.cpp */,
+				4148E4BC343E41A6BB7501FF /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/pluginterfacesupport.cpp */,
+				8FCE30267FD246E1AEEC72A9 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/processdata.cpp */,
+				6640EB09FE7F4290BBC6D56F /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/stringconvert.cpp */,
+				507F905B74DC48218F7FFB5C /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstinitiids.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		50764B20984D4C45B09617B4 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C755638D289476FA7839A90 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/openurl.h */,
+				5C16EBA860234A829751D983 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/systemclipboard.h */,
+				F97A6C0ABF484A83A8C7A245 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/threadchecker.h */,
+				A0D4DF0C49C84F7B9781EF33 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstpresetfile.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		73CA03F3102542BDAC0953AA /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEE08F74B10F4112B08E42CF /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/connectionproxy.h */,
+				3DC66EAE1FC244869FA316DD /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/eventlist.h */,
+				605065F1FA9042DA9F874E7E /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/hostclasses.h */,
+				968A5989C69541D7B325399E /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/module.h */,
+				40E6F057372C4B9D84809E0C /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/parameterchanges.h */,
+				67CB3CD2F5CB4EE4BC626CF6 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/pluginterfacesupport.h */,
+				86F2D0400E88459F88E86A5E /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/processdata.h */,
+				FCFE77829C5E461EB6D8CD8F /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/optional.h */,
+				36BA8DC035964795B7F0F2AD /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/stringconvert.h */,
+				3A336EFF9D754103A5966006 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/uid.h */,
+				00783410F3AE46BABF42A6D5 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/versionparser.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		7F34B031FB294EA4B5BEAC0A /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				D5D6EAA0B9F84AE2B71B43F5 /* sdk_hosting */,
+				92AF3AF77C814EC4A1E8E3D3 /* sdk */,
+				2D625B57C4814C63B0CEA900 /* sdk_common */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		92AF3AF77C814EC4A1E8E3D3 /* sdk */ = {
+			isa = PBXGroup;
+			children = (
+				BE32D1B8D04E4B45BA81C1E7 /* Source Files */,
+				2829A796E3F44AAEAD67DFCA /* Header Files */,
+				B270A55D03D94769B4B3B359 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/CMakeLists.txt */,
+			);
+			name = sdk;
+			sourceTree = "<group>";
+		};
+		AF2E017E92B34D04A5DEA76B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFAC83E79E304AF5B6F37485 /* sdk */,
+				014A0724367B4488B08F6108 /* sdk_common */,
+				5DF552A0C6464845951BA156 /* sdk_hosting */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B91C6120E0174B55A6E43F09 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				F289F49BC18042869250645D /* CMake Rules */,
+				9F60C5AEDB5A4F3697D5FAA2 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		BE32D1B8D04E4B45BA81C1E7 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E8FA52A783045D6BE6AD94B /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/pluginview.cpp */,
+				835ED8D4B5F440A68D9E33CF /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/main/pluginfactory.cpp */,
+				539B5AB7DFBC4A1A98E5A72E /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/stringconvert.cpp */,
+				03172E7727CA475A9DB26FB5 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/vst2persistence.cpp */,
+				AA5376E1606E4D4DB0568793 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstaudioeffect.cpp */,
+				84F7C69B9240455C8809C974 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstbus.cpp */,
+				C467C9D474A3469FA64E9DDF /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstcomponent.cpp */,
+				BB46752FB635423D892F446E /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstcomponentbase.cpp */,
+				197A9CC7A3ED417A9CBF4A59 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vsteditcontroller.cpp */,
+				6EC2C438E17845299705CAE7 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstinitiids.cpp */,
+				BB06AA6B6E9B4BC8957729BB /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstnoteexpressiontypes.cpp */,
+				457985C8478B45499CE8B335 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstparameters.cpp */,
+				F07843CE84A14808B34848F3 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstrepresentation.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		D5D6EAA0B9F84AE2B71B43F5 /* sdk_hosting */ = {
+			isa = PBXGroup;
+			children = (
+				48429DE9C0F24F768947D2CF /* Source Files */,
+				73CA03F3102542BDAC0953AA /* Header Files */,
+				BC31D2606A524D5AB0C8BE23 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/CMakeLists.txt */,
+			);
+			name = sdk_hosting;
+			sourceTree = "<group>";
+		};
+		F289F49BC18042869250645D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2960DAF3CD694305BAEB4AC7 /* sdk_common */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 169851C35A3D4F8B99E1E1F2 /* Build configuration list for PBXNativeTarget "sdk_common" */;
+			buildPhases = (
+				85F5FC7B1EF8432DA3700E84 /* Sources */,
+				F32385F9AF3945A78CA2A914 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0217DE0C3C324E089A6CF9ED /* PBXTargetDependency */,
+			);
+			name = sdk_common;
+			productName = sdk_common;
+			productReference = 014A0724367B4488B08F6108 /* sdk_common */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4B148538BAF542D28597556F /* sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6C1D6CBE2384633A2D11C87 /* Build configuration list for PBXNativeTarget "sdk" */;
+			buildPhases = (
+				2A443FF55D9F4083A560F4E2 /* Sources */,
+				5107ADF04A704522A056622D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				466F7893425C438AA1B39CC8 /* PBXTargetDependency */,
+				C0C97478209D4600B5ECD62A /* PBXTargetDependency */,
+			);
+			name = sdk;
+			productName = sdk;
+			productReference = CFAC83E79E304AF5B6F37485 /* sdk */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AA2BBDE661CF43C6BF220CCB /* sdk_hosting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4298A9E84AF446078C4DA2D2 /* Build configuration list for PBXNativeTarget "sdk_hosting" */;
+			buildPhases = (
+				FFC69F5E478944FFA82960B1 /* Sources */,
+				679174FDDA4A4CCEB2E97C3F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55F483A2F93046FF9D3856B9 /* PBXTargetDependency */,
+				52F3C786521D43908BBE64B9 /* PBXTargetDependency */,
+			);
+			name = sdk_hosting;
+			productName = sdk_hosting;
+			productReference = 5DF552A0C6464845951BA156 /* sdk_hosting */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1096E4CB0DD9476BA771EB3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1130;
+			};
+			buildConfigurationList = 08980DBE644E4EA6A709D14C /* Build configuration list for PBXProject "smtg_public_sdk" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				5A1EB6AD5B8545ECBF478223 /* Debug */,
+				7FD85B7150E34D5E8A46B08E /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 08D726487ACC4DF0B7CC434D;
+			projectDirPath = /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk;
+			projectRoot = "";
+			targets = (
+				1034C5E8D4124B49AB51F5B3 /* ALL_BUILD */,
+				FF0334C25260436E8802D4FA /* ZERO_CHECK */,
+				4B148538BAF542D28597556F /* sdk */,
+				2960DAF3CD694305BAEB4AC7 /* sdk_common */,
+				AA2BBDE661CF43C6BF220CCB /* sdk_hosting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C70A37C936E499BB761A7D7 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/moliver/Documents/Code/OLIreverb/build/vst3sdk/public.sdk -f /Users/moliver/Documents/Code/OLIreverb/build/vst3sdk/public.sdk/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		EBBFEA0922D14332959C2E46 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/moliver/Documents/Code/OLIreverb/build/vst3sdk/public.sdk -f /Users/moliver/Documents/Code/OLIreverb/build/vst3sdk/public.sdk/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A443FF55D9F4083A560F4E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D403F7E8403406FB063F66D /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/pluginview.cpp */,
+				A63C558B3EA745989C373941 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/main/pluginfactory.cpp */,
+				47C616D565344BFA866698C0 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/stringconvert.cpp */,
+				60C32FECE6B94D6598E7B4F9 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/vst2persistence.cpp */,
+				8DE9A0696C8F41E2BEEE8826 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstaudioeffect.cpp */,
+				4B8F24E7B8EC4F8392D77D4A /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstbus.cpp */,
+				40EDE78055AF49049FA429E4 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstcomponent.cpp */,
+				0C155489F78747BBA09C5A7C /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstcomponentbase.cpp */,
+				BF492360566B470F86850519 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vsteditcontroller.cpp */,
+				92362DE7487B44B7A0A7762A /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstinitiids.cpp */,
+				07177CB6E051478883771231 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstnoteexpressiontypes.cpp */,
+				EE6BF920F8304651A313CF39 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstparameters.cpp */,
+				E278C2340E124B11B4107546 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstrepresentation.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85F5FC7B1EF8432DA3700E84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CFEA599B47A420A9BC55542 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/commoniids.cpp */,
+				11F43B5F07DD46BB84DD93F0 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/openurl.cpp */,
+				7021FA44759C45B3B421A6BB /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/systemclipboard_mac.mm */,
+				5529ECAF53154DC9968041CA /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/systemclipboard_win32.cpp */,
+				4D95ADBDD8D34155AAD9B65F /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/threadchecker_linux.cpp */,
+				86FBE2A2E6ED4A2EB196A44D /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/threadchecker_mac.mm */,
+				EB72555DFC3B48CD970A5DBC /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/common/threadchecker_win32.cpp */,
+				8012FA8E5CB4485D9ADBBA67 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstpresetfile.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFC69F5E478944FFA82960B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700E9A5C146740C6A1AD49EE /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/connectionproxy.cpp */,
+				547F64145BB744A5AA756B5F /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/eventlist.cpp */,
+				E09BE35BEF1749C18A4171CE /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/hostclasses.cpp */,
+				9A5218D571194C1993DF59FD /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/module.cpp */,
+				2819F73D6A7D409BB924C6DC /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/parameterchanges.cpp */,
+				9AFB813381704DF4B846D069 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/pluginterfacesupport.cpp */,
+				ED00B7D404554B0BBB526520 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/hosting/processdata.cpp */,
+				99C5DB620A9F44A1B7E3A4E7 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/utility/stringconvert.cpp */,
+				841706D3D8EB4A6EA101FDF3 /* /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/source/vst/vstinitiids.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0217DE0C3C324E089A6CF9ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF0334C25260436E8802D4FA /* ZERO_CHECK */;
+			targetProxy = A46810BFCB4A4637AFCAB429 /* PBXContainerItemProxy */;
+		};
+		466F7893425C438AA1B39CC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF0334C25260436E8802D4FA /* ZERO_CHECK */;
+			targetProxy = 3649F81021EF43C0826E47D2 /* PBXContainerItemProxy */;
+		};
+		47D11F5B9ED64B6D9960C802 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B148538BAF542D28597556F /* sdk */;
+			targetProxy = 76A7F71912604C5387AB9662 /* PBXContainerItemProxy */;
+		};
+		52F3C786521D43908BBE64B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2960DAF3CD694305BAEB4AC7 /* sdk_common */;
+			targetProxy = 28C8057B95A948B4AF67FAB4 /* PBXContainerItemProxy */;
+		};
+		55F483A2F93046FF9D3856B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF0334C25260436E8802D4FA /* ZERO_CHECK */;
+			targetProxy = 2E7ECAF0312449E1B046A1BD /* PBXContainerItemProxy */;
+		};
+		8F3A6CC4C8C2497B9333479B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF0334C25260436E8802D4FA /* ZERO_CHECK */;
+			targetProxy = 5665556A9B7746C0B69E580C /* PBXContainerItemProxy */;
+		};
+		97BF358B9B844E21866E13F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2960DAF3CD694305BAEB4AC7 /* sdk_common */;
+			targetProxy = D79D3E279A8743EFABCC1E5D /* PBXContainerItemProxy */;
+		};
+		C0C97478209D4600B5ECD62A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2960DAF3CD694305BAEB4AC7 /* sdk_common */;
+			targetProxy = F01D6453EAD540B987247DED /* PBXContainerItemProxy */;
+		};
+		CF145136ECCD45D7BCCAC70E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA2BBDE661CF43C6BF220CCB /* sdk_hosting */;
+			targetProxy = ADF5FEBEAD794406AFCDAA23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1479142D1B5D4BBCA4334DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/moliver/Documents/Code/OLIreverb/build/vst3sdk/public.sdk;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		26FB6A67916246648CFE386E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/moliver/Documents/Code/OLIreverb/build/vst3sdk/public.sdk/build;
+			};
+			name = Release;
+		};
+		2B16CB0DD96B407A9E9E6110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/moliver/Documents/Code/OLIreverb/build/vst3sdk/public.sdk/build;
+			};
+			name = Debug;
+		};
+		486BC51BDBAF403D9280A5CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/moliver/Documents/Code/OLIreverb/build/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/moliver/Documents/Code/VST_SDK/VST3_SDK,/Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/..,/Users/moliver/Documents/Code/VST_SDK/VST3_SDK/base/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override -ffast-math '-ffp-contract=fast' '-DRELEASE=1' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sdk;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/moliver/Documents/Code/OLIreverb/build/vst3sdk/public.sdk;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		594EBE02D1CB4FDEBCD9FE17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/moliver/Documents/Code/OLIreverb/build/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/moliver/Documents/Code/VST_SDK/VST3_SDK,/Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/..,/Users/moliver/Documents/Code/VST_SDK/VST3_SDK/base/..,/Users/moliver/Documents/Code/VST_SDK/VST3_SDK/pluginterfaces/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override -ffast-math '-ffp-contract=fast' '-DDEVELOPMENT=1' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sdk_common;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/moliver/Documents/Code/OLIreverb/build/vst3sdk/public.sdk;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		597040598E3D4C31BD2F2B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/moliver/Documents/Code/OLIreverb/build/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/moliver/Documents/Code/VST_SDK/VST3_SDK,/Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/..,/Users/moliver/Documents/Code/VST_SDK/VST3_SDK/base/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override -ffast-math '-ffp-contract=fast' '-DRELEASE=1' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sdk_hosting;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/moliver/Documents/Code/OLIreverb/build/vst3sdk/public.sdk;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		8925B38CC973401298FD1A21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/moliver/Documents/Code/OLIreverb/build/vst3sdk/public.sdk;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C0FBDA88C86843F0A3447DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/moliver/Documents/Code/OLIreverb/build/vst3sdk/public.sdk;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		D745FB37F1594891B23B1B40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/moliver/Documents/Code/OLIreverb/build/vst3sdk/public.sdk;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E0EB31A6243D46C0B02294F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/moliver/Documents/Code/OLIreverb/build/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/moliver/Documents/Code/VST_SDK/VST3_SDK,/Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/..,/Users/moliver/Documents/Code/VST_SDK/VST3_SDK/base/..,/Users/moliver/Documents/Code/VST_SDK/VST3_SDK/pluginterfaces/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override -ffast-math '-ffp-contract=fast' '-DRELEASE=1' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sdk_common;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/moliver/Documents/Code/OLIreverb/build/vst3sdk/public.sdk;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E347F24260BC4F7CB92903EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/moliver/Documents/Code/OLIreverb/build/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/moliver/Documents/Code/VST_SDK/VST3_SDK,/Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/..,/Users/moliver/Documents/Code/VST_SDK/VST3_SDK/base/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override -ffast-math '-ffp-contract=fast' '-DDEVELOPMENT=1' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sdk_hosting;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/moliver/Documents/Code/OLIreverb/build/vst3sdk/public.sdk;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E61141E0F3BB42E9A607BB08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/moliver/Documents/Code/OLIreverb/build/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/moliver/Documents/Code/VST_SDK/VST3_SDK,/Users/moliver/Documents/Code/VST_SDK/VST3_SDK/public.sdk/..,/Users/moliver/Documents/Code/VST_SDK/VST3_SDK/base/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override -ffast-math '-ffp-contract=fast' '-DDEVELOPMENT=1' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sdk;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/moliver/Documents/Code/OLIreverb/build/vst3sdk/public.sdk;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08980DBE644E4EA6A709D14C /* Build configuration list for PBXProject "smtg_public_sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B16CB0DD96B407A9E9E6110 /* Debug */,
+				26FB6A67916246648CFE386E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		169851C35A3D4F8B99E1E1F2 /* Build configuration list for PBXNativeTarget "sdk_common" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594EBE02D1CB4FDEBCD9FE17 /* Debug */,
+				E0EB31A6243D46C0B02294F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4298A9E84AF446078C4DA2D2 /* Build configuration list for PBXNativeTarget "sdk_hosting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E347F24260BC4F7CB92903EB /* Debug */,
+				597040598E3D4C31BD2F2B79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9A8CFBF18CEF4D0CA325A465 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0FBDA88C86843F0A3447DE9 /* Debug */,
+				8925B38CC973401298FD1A21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C6C1D6CBE2384633A2D11C87 /* Build configuration list for PBXNativeTarget "sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E61141E0F3BB42E9A607BB08 /* Debug */,
+				486BC51BDBAF403D9280A5CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CB45A8AB1D2A42ABB5A703DB /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D745FB37F1594891B23B1B40 /* Debug */,
+				1479142D1B5D4BBCA4334DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1096E4CB0DD9476BA771EB3C /* Project object */;
+}

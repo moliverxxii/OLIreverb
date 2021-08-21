@@ -1,0 +1,33 @@
+dependencies: \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/controls/cvumeter.cpp \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/controls/cvumeter.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/controls/ccontrol.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/controls/../cview.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/controls/../vstguifwd.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/controls/../vstguibase.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/controls/../vstguidebug.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/controls/../cpoint.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/controls/../crect.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/controls/../vstkeycode.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/controls/../cbuttonstate.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/controls/../cgraphicstransform.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/controls/../ifocusdrawing.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/controls/../idependency.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/controls/../dispatchlist.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/controls/icontrollistener.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/controls/../coffscreencontext.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/controls/../cdrawcontext.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/controls/../cfont.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/controls/../cstring.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/controls/../optional.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/controls/../platform/iplatformstring.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/controls/../platform/../vstguibase.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/controls/../ccolor.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/controls/../clinestyle.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/controls/../cdrawdefs.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/controls/../cbitmap.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/controls/../cresourcedescription.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/controls/../platform/iplatformbitmap.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/controls/../platform/../vstguifwd.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/controls/../cvstguitimer.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/controls/../platform/iplatformtimer.h

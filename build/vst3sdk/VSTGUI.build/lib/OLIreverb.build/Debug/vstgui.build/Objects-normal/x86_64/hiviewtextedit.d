@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/carbon/hiviewtextedit.cpp \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/carbon/hiviewtextedit.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/carbon/../../iplatformtextedit.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/carbon/../../../cfont.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/carbon/../../../vstguifwd.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/carbon/../../../vstguibase.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/carbon/../../../vstguidebug.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/carbon/../../../cstring.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/carbon/../../../optional.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/carbon/../../../platform/iplatformstring.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/carbon/../../../ccolor.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/carbon/../../../crect.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/carbon/../../../cpoint.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/carbon/../../../cdrawcontext.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/carbon/../../../cgraphicstransform.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/carbon/../../../clinestyle.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/carbon/../../../cdrawdefs.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/carbon/hiviewframe.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/carbon/../../../cframe.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/carbon/../../../cviewcontainer.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/carbon/../../../cview.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/carbon/../../../vstkeycode.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/carbon/../../../cbuttonstate.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/carbon/../../../platform/iplatformframecallback.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/carbon/../cfontmac.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/carbon/../../iplatformfont.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/carbon/../macstring.h \
+  /Users/moliver/Documents/Code/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/platform/mac/carbon/../../iplatformstring.h
